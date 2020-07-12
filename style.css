@@ -1,0 +1,165 @@
+/* margen general */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Varela Round', sans-serif;;
+  }
+/* portada */
+  .portada {
+    height: 120px;
+    display: flex;
+    background-color: #261611;
+    justify-content: space-between;
+    align-items: center;
+  }
+/* titulo */
+  .nome {
+    margin-left: 40px;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 32px;
+  }
+/* lista de navegação */
+.navegate {
+    display: flex;
+    width: 400px;
+    height: 40px;
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.lista0 {
+    list-style: none;
+}
+
+/* sites para vanegar */
+header nav a {
+    align-items: center;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 24px;
+    font-weight: 100;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+/* Estilização do home */
+div .home {
+    text-align: left;
+    margin-top: -2px;
+    padding: 5px;
+    background-color: #21a1af;
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+  }
+
+.espaço {
+    display: none;
+  }
+
+/* Imagem central */
+.flores img {
+    width: 100%;
+    height: 488px;
+    object-fit: cover;
+}
+/* Main e geral */
+main {
+    display: flex;
+    margin: 50px 50px 100px;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+h2 {
+    margin: 10px 10px 10px;
+  }
+
+
+.imagesection {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  section {
+    display: flex;
+    margin: 0 50px;
+    flex-direction: column;
+  }
+
+  .centrar {
+    margin: 25px 15px;
+    text-decoration: none;
+    list-style: none;
+    color: #6d3625;
+  }
+/* sub menu */
+  .centrar {
+    flex-direction: row;
+    display: flex;
+    background-color: #361910;
+    margin: 0px 0px 80px;
+    padding: 10px;
+  }
+
+  .natu {
+      margin-left: 0px;
+      margin-top: 60px;
+      margin-bottom: 50px;
+      color: #966f63;
+  }
+
+.flor {
+    height: 600px;
+    max-width: 750px;
+}
+
+.lista1 {
+    list-style: none;
+}
+
+.minimg {
+    margin-bottom: 40px;
+    margin-right: 15px;
+    float: left;
+    margin-top: -5px;
+}
+
+.alirodape {
+    flex-direction: row;
+    display: flex;
+    background-color: #250d05;
+    margin: -80px 0px 20px;
+    padding: 10px;
+    height: 300px;
+}
+
+.meio {
+    color:#9e6f5f;
+    margin-left: 0px;
+}
+
+.para2 {
+    color:#5c3427;
+}
+
+.refe {
+    color:#5c3427;
+    list-style: none;
+}
+
+.copy {
+    color:#5c3427;
+    background-color: #0a0301;
+    margin: -80px 0px 20px;
+    padding: 10px;
+    height: 60px;
+    text-align: center;
+}
+
+.span {
+    margin-right: 60px;
+}
+ 
