@@ -47,10 +47,10 @@ header nav a {
 div .home {
     text-align: left;
     margin-top: -2px;
-    padding: 5px;
+    padding: 1px;
     background-color: #21a1af;
     height: 30px;
-    width: 110px;
+    width: 65px;
     border-radius: 5px;
   }
 
