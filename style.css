@@ -175,3 +175,79 @@ div .home {
     margin-right: 60px;
 }
  
+/* Media queries */
+
+@media (max-width: 375px) {
+    header {
+      width: 375px;
+      height: 60px;
+    }
+
+    .nome {
+        margin-left: 17px;
+        color: rgba(255, 255, 255, 0.801);
+        font-size: 20px;
+        width: 93px;
+        height: 27px;
+      }
+
+      .navegate {
+        display: flex;
+        width: 27px;
+        height: 18px;
+        margin-right: 311px;
+        color: rgba(255, 255, 255, 0.801);
+        font-size: 10px;
+        margin-top: 22px;
+    }
+
+    .flores img {
+        width: 375px;
+        height: 134px;
+        object-fit: cover;
+        opacity: ;
+    }
+
+    .imagesection {
+        display: flex;
+        flex-direction: row;
+        margin-left: 36px;
+        margin-bottom: 228px;
+        width: 146px;
+        height: 128px;
+        
+      }
+
+      main {
+        margin: 15px 7px;
+        text-decoration: none;
+        list-style: none;
+        flex-direction: row;
+        display: flex;
+        padding: 15px;
+    }
+
+    .natu {
+        margin-left: 36px;
+        margin-top: 734px;
+        margin-bottom: 28px;
+        color: #966f63;
+        font-size: 21px;
+    }
+
+    .minimg {
+        margin-bottom: 785px;
+        margin-right: 36px;
+        float: left;
+        margin-top: -5px;
+        width: 69.38px;
+        height: 71px;
+    }
+
+    .span {
+        margin-right: 114.5px;
+        margin-top: 785px;
+        width: 223.5px;
+        height: 54.06px;
+        line-height: 17px;
+    }
